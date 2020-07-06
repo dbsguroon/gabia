@@ -56,7 +56,7 @@
     /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
-/* header */
+/* Header */
 
 .header {
     overflow: hidden;
@@ -76,10 +76,11 @@
     display: inline;
 }
 
+
 .header .gnb li a {
     display: inline-block;
-    padding: 32px 12px;
     font-size: 18px;
+    padding: 32px 12px;
 }
 
 .header .quick {
