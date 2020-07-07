@@ -55,7 +55,7 @@
     /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
-/* header */
+/* Header */
 
 .header {
     overflow: hidden;
@@ -75,10 +75,11 @@
     display: inline;
 }
 
+
 .header .gnb li a {
     display: inline-block;
-    padding: 32px 12px;
     font-size: 18px;
+    padding: 32px 12px;
 }
 
 .header .quick {
@@ -117,7 +118,6 @@
 }
 
 /* banner */
-
 .banner {
     padding: 115px 50px;
 }
@@ -141,22 +141,21 @@
 }
 
 .banner .view {
+    font-size: 16px;
     display: inline-block;
     margin-top: 50px;
-    padding: 12px 42px;
     border: 1px solid #333;
     background-color: #fff;
-    font-size: 16px;
+    padding: 12px 42px;
     transition: all 0.3s ease;
 }
 
 .banner .view:hover {
-    background: #000;
+    background-color: #000;
     color: #fff;
 }
 
 /* sbanner */
-
 .sbanner {
     overflow: hidden;
     padding: 70px 0;
@@ -168,8 +167,8 @@
 }
 
 .sbanner>div h4 {
-    padding-bottom: 4px;
     font-size: 24px;
+    padding-bottom: 4px;
 }
 
 .sbanner>div h4:hover {
