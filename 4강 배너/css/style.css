@@ -171,6 +171,10 @@
     padding-bottom: 4px;
 }
 
+.sbanner>div h4 i {
+    padding-left: 8px;
+}
+
 .sbanner>div h4:hover {
     text-decoration: underline;
 }
