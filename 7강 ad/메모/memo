@@ -1,0 +1,24 @@
+z-index는 포토샵의 레이어개념과 비슷하다고 보면된다.
+하지만 z-index:10 주고 끝이아니고
+position 값을 주어야 z-index가 동작하는 구조이다.
+position:absolute 를 주면 주로 구조가 꺠지기떄문에
+position:relative; 를 준다.
+
+position:relative; 를 사용해야하는 경우
+
+1. position:absolute;의 기준점이 필요할때
+2. z-index를 사용해야하는 경우 포지션값이 없으면 relative를 사용하여
+z-index의 값을 인식시킬수 있습니다.
+3. 요소의 위치를 유지한채  left,top,bottom,right의
+위치 값을 사용하고 싶을때 사용한다.
+
+background-size:cover;
+
+cover : 배경을 사용하는 요소를 다 채울 수 있게 이미지를 확대 또는 축소합니다. 가로 세로 비율을 유지합니다.
+
+
+width :100% vs cover 의차이점
+
+width 100% 로는 가로를 기준으로 하기때문에 높이가 바뀔때 이미지가 꽉안차서보이지만
+cover는 가로 세로 비율을 유지하면서 이미지가 꽉차게 된다.
+

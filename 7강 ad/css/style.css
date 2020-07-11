@@ -24,9 +24,9 @@
 
 #ad {
     background: url(../img/ad_bg.jpg) no-repeat center top;
-    background-size: cover;
     position: relative;
     z-index: 1;
+    background-size: cover;
 }
 
 #ad:before {
@@ -63,7 +63,7 @@
     /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
-/* header */
+/* Header */
 
 .header {
     overflow: hidden;
@@ -83,10 +83,11 @@
     display: inline;
 }
 
+
 .header .gnb li a {
     display: inline-block;
-    padding: 32px 12px;
     font-size: 18px;
+    padding: 32px 12px;
 }
 
 .header .quick {
@@ -125,7 +126,6 @@
 }
 
 /* banner */
-
 .banner {
     padding: 115px 50px;
 }
@@ -149,22 +149,21 @@
 }
 
 .banner .view {
+    font-size: 16px;
     display: inline-block;
     margin-top: 50px;
-    padding: 12px 42px;
     border: 1px solid #333;
     background-color: #fff;
-    font-size: 16px;
+    padding: 12px 42px;
     transition: all 0.3s ease;
 }
 
 .banner .view:hover {
-    background: #000;
+    background-color: #000;
     color: #fff;
 }
 
 /* sbanner */
-
 .sbanner {
     overflow: hidden;
     padding: 70px 0;
@@ -176,8 +175,8 @@
 }
 
 .sbanner>div h4 {
-    padding-bottom: 4px;
     font-size: 24px;
+    padding-bottom: 4px;
 }
 
 .sbanner>div h4 i {
@@ -193,8 +192,7 @@
     color: #676767;
 }
 
-/* select */
-
+/* select 부분 */
 .select {
     overflow: hidden;
     padding: 70px 0;
@@ -235,6 +233,7 @@
     font-size: 18px;
     color: #fff;
     padding-bottom: 20px;
+
 }
 
 .select>div p {
@@ -242,7 +241,7 @@
     color: #d2f0ff;
 }
 
-/* infor */
+/* infor  */
 
 .infor {
     padding: 70px 0;
@@ -270,6 +269,7 @@
     text-align: left;
     padding: 0 210px;
 }
+
 
 .infor .infor-box h4 {
     font-size: 16px;
@@ -300,6 +300,7 @@
     color: #0081c8;
 }
 
+
 .infor .infor-box .in-right {
     float: left;
     width: 50%;
@@ -312,13 +313,14 @@
     color: #666;
 }
 
+
 /* ad */
 
 .ad {
     padding: 70px 0;
     text-align: center;
-    position: relative;
     z-index: 10;
+    position: relative;
 }
 
 .ad h3 {
@@ -343,6 +345,6 @@
 }
 
 .ad .view:hover {
-    color: #000;
     background-color: #fff;
+    color: #000;
 }
