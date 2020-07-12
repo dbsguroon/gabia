@@ -351,33 +351,125 @@
     padding: 70px 0;
 }
 
-.blog h3 {}
+.blog h3 {
+    font-size: 34px;
+    margin-bottom: 50px;
+}
 
 .blog .blog-wrap {
-    background: #ccc;
-    height: 440px;
     margin-bottom: 80px;
     overflow: hidden;
 }
 
 .blog .blog-wrap>div {
     float: left;
-    width: 25%;
+    width: 23.5%;
+    margin-right: 2%;
+    border-top: 2px solid #6f6f6f;
 }
 
-.blog .blog-wrap>div h4 {}
+.blog .blog-wrap>div:last-child {
+    margin-right: 0;
+}
 
-.blog .blog-wrap>div p {}
+.blog .blog-wrap>div h4 {
+    font-size: 22px;
+    padding: 25px 0 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.blog .blog-wrap>div p {
+    font-size: 16px;
+    color: #7e7e7e;
+    margin-bottom: 40px;
+    height: 93px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
 
 .blog .blog-wrap>div figure img {
     width: 100%;
 }
 
 .blog .notice-wrap {
-    background: #ddd;
+    overflow: hidden;
+}
+
+.blog .notice-wrap .nw-left {
+    float: left;
+    width: 780px;
+}
+
+.blog .notice-wrap .nw-left h3 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.blog .notice-wrap .nw-left .total {
+    font-size: 14px;
+    color: #666;
+}
+
+.blog .notice-wrap .nw-left ul {
+    border-top: 2px solid #6f6f6f;
+}
+
+.blog .notice-wrap .nw-left li {
+    padding: 20px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.blog .notice-wrap .nw-left li a {
+    color: #666;
+    font-size: 14px;
+    float: left;
+    width: 80%;
+}
+
+.blog .notice-wrap .nw-left li span {
+    float: right;
+    width: 20%;
+    font-size: 14px;
+    color: #999;
+    text-align: right;
+}
+
+.blog .notice-wrap .nw-right {
+    float: right;
+    width: 375px;
     height: 257px;
 }
 
-.blog .notice-wrap .nw-left {}
+.blog .notice-wrap .nw-right h3 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
 
-.blog .notice-wrap .nw-right {}
+.blog .notice-wrap .nw-right ul {
+    border-top: 2px solid #6f6f6f;
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 145px;
+}
+
+.blog .notice-wrap .nw-right ul li {
+    padding: 12px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+
+.blog .notice-wrap .nw-right ul li span {
+    background-color: #666;
+    color: #fff;
+    margin-right: 20px;
+    padding: 5px 10px;
+}
