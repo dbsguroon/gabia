@@ -1,0 +1,29 @@
+가로로 정렬해야할떄
+
+이미지는 float:left를 써주는게 좋음
+여백이 딱붙게하기위해서
+
+글씨만 단순히 있는것이라면
+display:inline 을 써주면된다.
+
+-------------------------------
+
+select 태그 
+
+말그대로 선택하는 태그다
+
+<label for="family-site" class="ir">패밀리 사이트<label>
+<select id="family-site">
+    <option value=">패밀리 사이트</option>
+</select>
+<button type="button" class="family-btn">바로가기</button>
+
+옵션을 줄수 있으며
+select태그는 라벨을 써서 연결시켜야한다.
+즉 label의 for 와 select의 id가 같아야한다.
+
+그리고 option에 value 값을 줄수 있는데
+나중에 script에서 값을 가져오기 위한 용도로 쓰이는것이다.
+
+마지막으로 선택한 값을 보내기위해서 
+button을 하나만들어준다.

@@ -24,9 +24,9 @@
 
 #ad {
     background: url(../img/ad_bg.jpg) no-repeat center top;
-    background-size: cover;
     position: relative;
     z-index: 1;
+    background-size: cover;
 }
 
 #ad:before {
@@ -56,7 +56,7 @@
     /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
-/* header */
+/* Header */
 
 .header {
     overflow: hidden;
@@ -76,10 +76,11 @@
     display: inline;
 }
 
+
 .header .gnb li a {
     display: inline-block;
-    padding: 32px 12px;
     font-size: 18px;
+    padding: 32px 12px;
 }
 
 .header .quick {
@@ -118,7 +119,6 @@
 }
 
 /* banner */
-
 .banner {
     padding: 115px 50px;
 }
@@ -142,22 +142,21 @@
 }
 
 .banner .view {
+    font-size: 16px;
     display: inline-block;
     margin-top: 50px;
-    padding: 12px 42px;
     border: 1px solid #333;
     background-color: #fff;
-    font-size: 16px;
+    padding: 12px 42px;
     transition: all 0.3s ease;
 }
 
 .banner .view:hover {
-    background: #000;
+    background-color: #000;
     color: #fff;
 }
 
 /* sbanner */
-
 .sbanner {
     overflow: hidden;
     padding: 70px 0;
@@ -169,8 +168,8 @@
 }
 
 .sbanner>div h4 {
-    padding-bottom: 4px;
     font-size: 24px;
+    padding-bottom: 4px;
 }
 
 .sbanner>div h4 i {
@@ -186,8 +185,7 @@
     color: #676767;
 }
 
-/* select */
-
+/* select 부분 */
 .select {
     overflow: hidden;
     padding: 70px 0;
@@ -228,6 +226,7 @@
     font-size: 18px;
     color: #fff;
     padding-bottom: 20px;
+
 }
 
 .select>div p {
@@ -235,7 +234,7 @@
     color: #d2f0ff;
 }
 
-/* infor */
+/* infor  */
 
 .infor {
     padding: 70px 0;
@@ -263,6 +262,7 @@
     text-align: left;
     padding: 0 210px;
 }
+
 
 .infor .infor-box h4 {
     font-size: 16px;
@@ -293,6 +293,7 @@
     color: #0081c8;
 }
 
+
 .infor .infor-box .in-right {
     float: left;
     width: 50%;
@@ -305,13 +306,14 @@
     color: #666;
 }
 
+
 /* ad */
 
 .ad {
     padding: 70px 0;
     text-align: center;
-    position: relative;
     z-index: 10;
+    position: relative;
 }
 
 .ad h3 {
@@ -336,12 +338,11 @@
 }
 
 .ad .view:hover {
-    color: #000;
     background-color: #fff;
+    color: #000;
 }
 
 /* blog */
-
 .blog {
     padding: 70px 0;
 }
@@ -423,18 +424,18 @@
 }
 
 .blog .notice-wrap .nw-left li a {
+    color: #666;
+    font-size: 14px;
     float: left;
     width: 80%;
-    font-size: 14px;
-    color: #666;
 }
 
 .blog .notice-wrap .nw-left li span {
     float: right;
     width: 20%;
-    text-align: right;
     font-size: 14px;
     color: #999;
+    text-align: right;
 }
 
 .blog .notice-wrap .nw-right {
@@ -455,20 +456,21 @@
     height: 145px;
 }
 
-.blog .notice-wrap .nw-right li {
+.blog .notice-wrap .nw-right ul li {
     padding: 12px 0;
     font-size: 16px;
     color: #666;
 }
 
-.blog .notice-wrap .nw-right li span {
-    margin-right: 20px;
-    background: #666;
+
+.blog .notice-wrap .nw-right ul li span {
+    background-color: #666;
     color: #fff;
+    margin-right: 20px;
     padding: 5px 10px;
 }
 
-/* site */
+/* 사이트 */
 
 .site {
     overflow: hidden;
@@ -499,7 +501,6 @@
     width: 33.222%;
 }
 
-
 .site>div.two ul {
     overflow: hidden;
 }
@@ -509,8 +510,7 @@
     width: 50%;
 }
 
-/* footer */
-
+/* 푸터 부분 */
 .footer {
     padding: 50px 0;
     position: relative;
@@ -554,15 +554,15 @@
 }
 
 .footer .address {
-    font-size: 14px;
     color: #666;
+    font-size: 14px;
 }
 
 .footer .address li {
     padding-bottom: 5px;
 }
 
-.footer .address li span {
+.footer .address span {
     padding-right: 20px;
 }
 
@@ -590,16 +590,16 @@
 }
 
 .footer .family select {
-    background: #fff;
+    background-color: #fff;
     width: 145px;
     height: 44px;
     padding-left: 5px;
     margin-right: 5px;
 }
 
-.footer .family .family-btn {
+.footer .family button {
     padding: 10px 15px 11px;
-    font-size: 14px;
     border: 1px solid #cfd5da;
+    font-size: 14px;
     color: #707070;
 }
