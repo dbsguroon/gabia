@@ -24,9 +24,9 @@
 
 #ad {
   background: url(../img/ad_bg.jpg) no-repeat center top;
-  background-size: cover;
   position: relative;
   z-index: 1;
+  background-size: cover;
 }
 
 #ad:before {
@@ -56,7 +56,7 @@
   /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
-/* header */
+/* Header */
 
 .header {
   overflow: hidden;
@@ -78,8 +78,8 @@
 
 .header .gnb li a {
   display: inline-block;
-  padding: 32px 12px;
   font-size: 18px;
+  padding: 32px 12px;
 }
 
 .header .quick {
@@ -118,7 +118,6 @@
 }
 
 /* banner */
-
 .banner {
   padding: 115px 50px;
 }
@@ -142,22 +141,21 @@
 }
 
 .banner .view {
+  font-size: 16px;
   display: inline-block;
   margin-top: 50px;
-  padding: 12px 42px;
   border: 1px solid #333;
   background-color: #fff;
-  font-size: 16px;
+  padding: 12px 42px;
   transition: all 0.3s ease;
 }
 
 .banner .view:hover {
-  background: #000;
+  background-color: #000;
   color: #fff;
 }
 
 /* sbanner */
-
 .sbanner {
   overflow: hidden;
   padding: 70px 0;
@@ -169,8 +167,8 @@
 }
 
 .sbanner>div h4 {
-  padding-bottom: 4px;
   font-size: 24px;
+  padding-bottom: 4px;
 }
 
 .sbanner>div h4 i {
@@ -186,8 +184,7 @@
   color: #676767;
 }
 
-/* select */
-
+/* select 부분 */
 .select {
   overflow: hidden;
   padding: 70px 0;
@@ -235,7 +232,7 @@
   color: #d2f0ff;
 }
 
-/* infor */
+/* infor  */
 
 .infor {
   padding: 70px 0;
@@ -310,8 +307,8 @@
 .ad {
   padding: 70px 0;
   text-align: center;
-  position: relative;
   z-index: 10;
+  position: relative;
 }
 
 .ad h3 {
@@ -336,12 +333,11 @@
 }
 
 .ad .view:hover {
-  color: #000;
   background-color: #fff;
+  color: #000;
 }
 
 /* blog */
-
 .blog {
   padding: 70px 0;
 }
@@ -423,18 +419,18 @@
 }
 
 .blog .notice-wrap .nw-left li a {
+  color: #666;
+  font-size: 14px;
   float: left;
   width: 80%;
-  font-size: 14px;
-  color: #666;
 }
 
 .blog .notice-wrap .nw-left li span {
   float: right;
   width: 20%;
-  text-align: right;
   font-size: 14px;
   color: #999;
+  text-align: right;
 }
 
 .blog .notice-wrap .nw-right {
@@ -455,20 +451,20 @@
   height: 145px;
 }
 
-.blog .notice-wrap .nw-right li {
+.blog .notice-wrap .nw-right ul li {
   padding: 12px 0;
   font-size: 16px;
   color: #666;
 }
 
-.blog .notice-wrap .nw-right li span {
-  margin-right: 20px;
-  background: #666;
+.blog .notice-wrap .nw-right ul li span {
+  background-color: #666;
   color: #fff;
+  margin-right: 20px;
   padding: 5px 10px;
 }
 
-/* site */
+/* 사이트 */
 
 .site {
   overflow: hidden;
@@ -508,8 +504,7 @@
   width: 50%;
 }
 
-/* footer */
-
+/* 푸터 부분 */
 .footer {
   padding: 50px 0;
   position: relative;
@@ -553,15 +548,15 @@
 }
 
 .footer .address {
-  font-size: 14px;
   color: #666;
+  font-size: 14px;
 }
 
 .footer .address li {
   padding-bottom: 5px;
 }
 
-.footer .address li span {
+.footer .address span {
   padding-right: 20px;
 }
 
@@ -589,21 +584,21 @@
 }
 
 .footer .family select {
-  background: #fff;
+  background-color: #fff;
   width: 145px;
   height: 44px;
   padding-left: 5px;
   margin-right: 5px;
 }
 
-.footer .family .family-btn {
+.footer .family button {
   padding: 10px 15px 11px;
-  font-size: 14px;
   border: 1px solid #cfd5da;
+  font-size: 14px;
   color: #707070;
 }
 
-/* 서브 페이지*/
+/* 서브페이지 전체 레이아웃*/
 #sub-banner {
   background: url(../img/server-bg1.png) repeat-x center top;
 }
@@ -618,68 +613,68 @@
 
 #product-table {}
 
-/* 서브 배너 */
-#sub-banner .sub-banner {
+/* 서브배너*/
+.sub-banner {
   overflow: hidden;
   padding: 80px 0;
 }
 
-#sub-banner .sub-left {
+.sub-banner .sb-left {
   float: left;
   width: 760px;
 }
 
-#sub-banner .sub-left h2 {
+.sub-banner .sb-left h2 {
   font-size: 40px;
   color: #fff;
 }
 
-#sub-banner .sub-left p {
+.sub-banner .sb-left p {
   font-size: 16px;
   color: #fff;
 }
 
-#sub-banner .sub-right {
+.sub-banner .sb-right {
   float: right;
   width: 410px;
   padding-top: 15px;
 }
 
-#sub-banner .sub-right li {
+.sub-banner .sb-right li {
   display: inline;
   margin-left: 10px;
 }
 
-#sub-banner .sub-right li a {
-  font-size: 18px;
+.sub-banner .sb-right li a {
   color: #beddf9;
+  font-size: 18px;
+  border: 2px solid #beddf9;
+  border-radius: 50px;
   display: inline-block;
   width: 65px;
   height: 50px;
-  line-height: 50px;
   padding-left: 55px;
-  border-radius: 50px;
-  border: 2px solid #beddf9;
+  line-height: 50px;
 }
 
-#sub-banner .sub-right li.ic1 a {
+.sub-banner .sb-right li.ic1 a {
   background: url(../img/server-icon1.png) no-repeat 18px 13px;
 }
 
-#sub-banner .sub-right li.ic2 a {
+.sub-banner .sb-right li.ic2 a {
   background: url(../img/server-icon2.png) no-repeat 18px 13px;
 }
 
-#sub-banner .sub-right li.ic3 a {
+.sub-banner .sb-right li.ic3 a {
   background: url(../img/server-icon3.png) no-repeat 18px 13px;
 }
 
-#sub-banner .sub-right li a:hover {
+.sub-banner .sb-right li a:hover {
   color: #fff;
   border-color: #fff;
 }
 
-/* product-table*/
+/* 상품 테이블 */
 
 .product-table {
   padding: 80px 0;
@@ -687,15 +682,15 @@
 
 .product-table .more {
   text-align: center;
-  font-size: 14px;
   padding: 20px 0 40px;
+  font-size: 14px;
 }
 
 .product-table .list li {
   font-size: 14px;
+  line-height: 28px;
   position: relative;
   padding-left: 10px;
-  line-height: 28px;
 }
 
 .product-table .list li:before {
@@ -703,18 +698,17 @@
   width: 3px;
   height: 3px;
   background: #333;
-  border-radius: 50%;
   position: absolute;
   left: 0;
   top: 12px;
+  border-radius: 50%;
 }
 
 .product-table .list li .help {
   font-size: 18px;
 }
 
-/* table-title1*/
-
+/* table-title1 */
 .table-title1 {
   position: relative;
   padding-bottom: 20px;
@@ -742,11 +736,8 @@
   color: #1d7abd;
 }
 
-
-/*table-style1*/
-
+/* table-style1*/
 .table-style1 {}
-
 
 .table-style1 table {
   border-top: 2px solid #6f6f6f;
@@ -755,7 +746,6 @@
   text-align: center;
   color: #666;
 }
-
 
 .table-style1 table thead th {
   background-color: #f9fafc;
@@ -769,16 +759,14 @@
 }
 
 .table-style1 table tbody td {
+  padding: 20px 30px;
   border-bottom: 1px solid #e4e4e4;
   border-right: 1px solid #e4e4e4;
-  padding: 20px 30px;
 }
 
 .table-style1 table tbody td:last-child {
   border-right: 0;
 }
-
-/*table-style1 option*/
 
 .table-style1 .left {
   text-align: left;
@@ -793,12 +781,12 @@
 }
 
 .table-style1 .hot {
-  display: inline-block;
-  padding: 2px 10px 0 10px;
-  vertical-align: 4px;
   background-color: #ff9900;
   color: #fff;
   font-size: 14px;
+  display: inline-block;
+  padding: 2px 10px 0 10px;
+  vertical-align: 4px;
   line-height: 20px;
 }
 
@@ -814,8 +802,8 @@
 .table-style1 .view {
   display: inline-block;
   padding: 5px 45px;
-  background: #3090d6;
   color: #fff;
+  background-color: #3090d6;
   font-size: 16px;
 }
 
