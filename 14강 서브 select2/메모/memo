@@ -1,0 +1,98 @@
+<table></table>
+
+<th> : 표의 제목
+<tr> : 행
+<td> : 열
+
+colspan : 가로줄을 합침
+rowspan : 세로줄을 합침
+
+
+테이블 초기화
+
+border-spacing:
+ 테두리 간 간격을 지정합니다
+
+ border-spacing:0 
+ 테두리간의 간격이 0이됨
+
+border-collapse:
+
+모든셀에는 자신만의 고유한 테두리가 있는데
+
+border-collapse를 collapse로 주면
+자신의 고유테두리를 가지고 있는것이 아니라
+셀 서로서로가 테두리를 공유함
+
+
+<td>태그안에는 ul 태그와 li 태그가 들어갈수가 있다. (웹접근성에 부합한다.)
+
+인라인끼리 높낮이가 안맞을떄는
+vertical-align 을 쓴다.
+
+
+<colgroup>
+    <col width="25%" />
+    <col width="35%" />
+    <col width="10%" />
+    <col width="10%" />
+    <col width="20%" />
+</colgroup>
+
+col을 그룹화하여
+col 별로 width를 줄수가 있다.
+
+
+table scope
+시각장애인용 리더기를 통해 읽어지는 경우 해당하는 속성값에
+따라 어떤 순서로 읽을지 결정하게 됩니다.
+
+ex)
+
+<table border="1">
+  <thead>
+    <tr>
+      <th scope="col">번호</th>
+      <th scope="col">이름</th>
+      <th scope="col">나이</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td scope="row">1</td>
+      <td>Will</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td scope="row">2</td>
+      <td>Jason</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <td scope="row">3</td>
+      <td>William</td>
+      <td>36</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+위 코드의 출력 결과는 아래와 같습니다.
+
+번호	이름	나이
+ 1	    Will	 19
+ 2	    Jason	 28
+ 3	    William	 36
+
+
+즉 스크린리더기가 읽을때 번호 1번 이름 will 나이 19세 이렇게 읽음
+
+번호 이름 나이에는 scope를 col로 해주고
+행이처음시작되는 1번에 row라고 해주면된다.
+
+
+---------------------------------------------
+
+table caption : 테이블에 대한 설명
