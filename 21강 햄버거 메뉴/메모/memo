@@ -1,0 +1,35 @@
+햄버거 메뉴
+
+/* mGnb */
+.mGnb {                              1. 햄버거 박스를 하나 만든다.
+    display: none;                   2. 햄버거 박스안에 BAR를 감싸는 BAR-WRAP을만든다.
+    position: absolute;              3. 3개의 DIV를 만든다
+    left: 10px;                      4. <DIV CLASS="BAR ONE">  , <DIV CLASS="BAR TWO"> , <DIV CLASS="BAR THREE">
+    top: 12px;                       5. BAR 는 공통요소로 CSS를 주기위해만거고 ONE,TWO,THREE 는 박사의 다른점을 CSS주기위해 만든거다                 
+}                                    6. 전체 적인 박스의 위치를 POSITION 값으로 잡아준다
+                                     7. BAR-WRAP 에 WIDTH 와 HEIGHT 를 설정해 영역을 터치를 했을때 적용될 정도의 영역을 설정해준다
+.mGnb .bar-wrap {                    8. 공통클래스인 BAR에 WIDTH와 HEIGHT로 BAR모양을 만들고  POSITION ABSOLUTE로 위치를 잡아주고 기준점을
+    width: 50px;                        BAR-WRAP으로 설정해준다
+    height: 40px;                    9. ONE,TWO,THREE 클래스에는  서로다른 CSS가 적용될 위치값을 적어준다.
+    position: relative;
+}
+
+.mGnb .bar {
+    position: absolute;
+    left: 10px;
+    width: 30px;
+    height: 3px;
+    background: #000;
+}
+
+.mGnb .bar.one {
+    top: 10px;
+}
+
+.mGnb .bar.two {
+    top: 17px;
+}
+
+.mGnb .bar.three {
+    top: 24px;
+}
