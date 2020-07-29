@@ -1,16 +1,16 @@
-/* 전체 레이아웃 */
+/*반응형 전체 layout */
 
 #header {
-    border-bottom: 1px solid #efefef;
     height: 89px;
+    border-bottom: 1px solid #efefef;
 }
 
 #banner {}
 
 #search-domain {
-    border-top: 1px solid #efefef;
-    background-color: #fbfaf8;
     height: 110px;
+    background-color: #fbfaf8;
+    border-top: 1px solid #efefef;
 }
 
 #sbanner {}
@@ -31,10 +31,11 @@
 
 
 /* container */
+
 .container {
     width: 1180px;
-    margin: 0 auto;
     height: inherit;
+    margin: 0 auto;
     /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
@@ -56,12 +57,12 @@
     padding: 10px 0;
 }
 
-.skip a:active,
-.skip a:focus {
+.skip a:focus,
+.skip a:active {
     top: 0;
 }
 
-/* 헤더 */
+/* Header */
 
 .header {
     overflow: hidden;
@@ -71,7 +72,6 @@
     float: left;
     padding-top: 24px;
     padding-right: 30px;
-
 }
 
 .header .gnb {
@@ -98,7 +98,7 @@
 }
 
 .header .quick li:before {
-    content: '';
+    content: "";
     width: 1px;
     height: 10px;
     background: #ccc;
@@ -112,7 +112,7 @@
     height: 0;
 }
 
-.header .quick a {
+.header .quick li a {
     display: inline-block;
     font-size: 14px;
     padding: 34px 11px 34px 8px;
@@ -123,8 +123,7 @@
     color: #1d7abd;
 }
 
-/*mGnb */
-
+/* mGnb */
 .mGnb {
     display: none;
     position: absolute;
@@ -159,6 +158,7 @@
 }
 
 /* search */
+
 .search {
     display: none;
     position: absolute;
@@ -174,8 +174,7 @@
     font-size: 20px;
 }
 
-/* 배너 */
-
+/* banner */
 .banner {
     padding: 115px 50px;
 }
@@ -193,9 +192,9 @@
 }
 
 .banner em {
-    display: block;
     font-size: 18px;
     color: #f66b05;
+    display: block;
 }
 
 .banner .view {
@@ -225,7 +224,7 @@
     background: url(../img/banner-bg3.jpg) no-repeat center top;
 }
 
-/* 서치도메인 */
+/* 서치 도메인 */
 
 .search-domain {
     padding: 25px 0;
@@ -234,6 +233,7 @@
 .search-domain span {
     font-size: 36px;
     padding-right: 15px;
+
 }
 
 .search-domain .input-text {
@@ -268,15 +268,15 @@
 }
 
 .search-domain a {
-    margin-left: 15px;
+    background-color: #3090d6;
     display: inline-block;
     width: 130px;
     height: 60px;
-    background-color: #3090d6;
+    color: #fff;
+    font-size: 20px;
     text-align: center;
     line-height: 60px;
-    font-size: 20px;
-    color: #fff;
+    margin-left: 15px;
 }
 
 /* sbanner */
@@ -291,14 +291,13 @@
 }
 
 .sbanner>div h4 {
-    padding-bottom: 4px;
     font-size: 24px;
+    padding-bottom: 4px;
 }
 
 .sbanner>div h4 i {
     padding-left: 8px;
 }
-
 
 .sbanner>div h4:hover {
     text-decoration: underline;
@@ -310,9 +309,9 @@
 }
 
 
-/*  미디워쿼리 */
+/* 미디어쿼리 */
 
-@media (max-width:1200px) {
+@media(max-width:1200px) {
     .container {
         width: 100%;
     }
@@ -359,13 +358,15 @@
 }
 
 @media(max-width:1024px) {
+
     .sbanner>div {
         width: 50%;
         margin-bottom: 30px;
     }
 }
 
-@media (max-width:768px) {
+@media(max-width:768px) {
+
     .banner {
         padding: 40px 20px 50px 20px;
         text-align: center;
@@ -377,7 +378,7 @@
         content: '';
         width: 100%;
         height: 100%;
-        background: rgba(139, 179, 255, 0.3);
+        background-color: rgba(139, 179, 255, 0.3);
         position: absolute;
         left: 0;
         top: 0;
@@ -387,15 +388,14 @@
     .banner h2 {
         font-size: 30px;
         line-height: 45px;
-        color: #21597b;
+        color: #21579b;
     }
 
     .banner p {
-        color: #000;
         font-size: 14px;
         padding: 20px 0;
+        color: #000;
     }
-
 
     .banner .view {
         margin-top: 20px;
