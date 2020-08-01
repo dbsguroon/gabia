@@ -1,22 +1,22 @@
-/* 전체 레이아웃 */
+/*반응형 전체 layout */
 
 #header {
-    border-bottom: 1px solid #efefef;
     height: 89px;
+    border-bottom: 1px solid #efefef;
 }
 
 #banner {}
 
 #search-domain {
-    border-top: 1px solid #efefef;
-    background-color: #fbfaf8;
     height: 110px;
+    background-color: #fbfaf8;
+    border-top: 1px solid #efefef;
 }
 
 #sbanner {}
 
 #select {
-    background-color: #1d7abd;
+    background: #1d7abd;
 }
 
 #infor {}
@@ -29,10 +29,10 @@
 }
 
 #ad:before {
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     left: 0;
     top: 0;
@@ -46,10 +46,11 @@
 
 
 /* container */
+
 .container {
     width: 1180px;
-    margin: 0 auto;
     height: inherit;
+    margin: 0 auto;
     /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
@@ -71,12 +72,12 @@
     padding: 10px 0;
 }
 
-.skip a:active,
-.skip a:focus {
+.skip a:focus,
+.skip a:active {
     top: 0;
 }
 
-/* 헤더 */
+/* Header */
 
 .header {
     overflow: hidden;
@@ -86,7 +87,6 @@
     float: left;
     padding-top: 24px;
     padding-right: 30px;
-
 }
 
 .header .gnb {
@@ -113,7 +113,7 @@
 }
 
 .header .quick li:before {
-    content: '';
+    content: "";
     width: 1px;
     height: 10px;
     background: #ccc;
@@ -127,7 +127,7 @@
     height: 0;
 }
 
-.header .quick a {
+.header .quick li a {
     display: inline-block;
     font-size: 14px;
     padding: 34px 11px 34px 8px;
@@ -138,8 +138,7 @@
     color: #1d7abd;
 }
 
-/*mGnb */
-
+/* mGnb */
 .mGnb {
     display: none;
     position: absolute;
@@ -174,6 +173,7 @@
 }
 
 /* search */
+
 .search {
     display: none;
     position: absolute;
@@ -189,8 +189,7 @@
     font-size: 20px;
 }
 
-/* 배너 */
-
+/* banner */
 .banner {
     padding: 115px 50px;
 }
@@ -208,9 +207,9 @@
 }
 
 .banner em {
-    display: block;
     font-size: 18px;
     color: #f66b05;
+    display: block;
 }
 
 .banner .view {
@@ -240,7 +239,7 @@
     background: url(../img/banner-bg3.jpg) no-repeat center top;
 }
 
-/* 서치도메인 */
+/* 서치 도메인 */
 
 .search-domain {
     padding: 25px 0;
@@ -249,6 +248,7 @@
 .search-domain span {
     font-size: 36px;
     padding-right: 15px;
+
 }
 
 .search-domain .input-text {
@@ -283,15 +283,15 @@
 }
 
 .search-domain a {
-    margin-left: 15px;
+    background-color: #3090d6;
     display: inline-block;
     width: 130px;
     height: 60px;
-    background-color: #3090d6;
+    color: #fff;
+    font-size: 20px;
     text-align: center;
     line-height: 60px;
-    font-size: 20px;
-    color: #fff;
+    margin-left: 15px;
 }
 
 /* sbanner */
@@ -306,14 +306,13 @@
 }
 
 .sbanner>div h4 {
-    padding-bottom: 4px;
     font-size: 24px;
+    padding-bottom: 4px;
 }
 
 .sbanner>div h4 i {
     padding-left: 8px;
 }
-
 
 .sbanner>div h4:hover {
     text-decoration: underline;
@@ -324,11 +323,10 @@
     color: #676767;
 }
 
-/* select */
-
+/* select 부분 */
 .select {
-    padding: 70px 0;
     overflow: hidden;
+    padding: 70px 0;
 }
 
 .select h3 {
@@ -347,6 +345,21 @@
     height: 300px;
 }
 
+.select>div.simg1 {
+    background: #2886ca url(../img/select-bg1.png) no-repeat 30px 220px;
+    background-size: 80px;
+}
+
+.select>div.simg2 {
+    background: #2886ca url(../img/select-bg2.png) no-repeat 30px 220px;
+    background-size: 90px;
+}
+
+.select>div.simg3 {
+    background: #2886ca url(../img/select-bg3.png) no-repeat 30px 230px;
+    background-size: 90px;
+}
+
 .select>div h4 {
     font-size: 18px;
     color: #fff;
@@ -358,25 +371,7 @@
     color: #d2f0ff;
 }
 
-
-.select div.simg1 {
-    background: #2286ca url(../img/select-bg1.png) no-repeat 30px 220px;
-    background-size: 80px;
-}
-
-
-.select div.simg2 {
-    background: #2286ca url(../img/select-bg2.png) no-repeat 30px 220px;
-    background-size: 90px;
-}
-
-
-.select div.simg3 {
-    background: #2286ca url(../img/select-bg3.png) no-repeat 30px 230px;
-    background-size: 90px;
-}
-
-/*infor */
+/* infor  */
 
 .infor {
     padding: 70px 0;
@@ -385,8 +380,8 @@
 
 .infor h3 {
     font-size: 40px;
-    font-weight: 300;
     padding-bottom: 20px;
+    font-weight: 300;
 }
 
 .infor p {
@@ -419,21 +414,20 @@
     box-sizing: border-box;
 }
 
-
 .infor .infor-box .in-left h4 i {
-    color: #0081C8;
+    color: #0081c8;
 }
 
 .infor .infor-box .in-left em {
-    display: inline-block;
-    width: 170px;
     font-size: 24px;
     color: #333;
+    display: inline-block;
+    width: 170px;
 }
 
 .infor .infor-box .in-left strong {
     font-size: 30px;
-    color: #0081C8;
+    color: #0081c8;
 }
 
 .infor .infor-box .in-right {
@@ -448,13 +442,13 @@
     color: #666;
 }
 
-/*  ad */
+/* ad */
 
 .ad {
     padding: 70px 0;
     text-align: center;
-    position: relative;
     z-index: 10;
+    position: relative;
 }
 
 .ad h3 {
@@ -469,23 +463,23 @@
 }
 
 .ad .view {
+    font-size: 16px;
     display: inline-block;
-    margin-top: 50px;
     padding: 12px 42px;
     border: 1px solid #fff;
-    font-size: 16px;
+    margin-top: 50px;
     color: #fff;
     transition: all 0.3s ease;
 }
 
 .ad .view:hover {
-    background: #fff;
+    background-color: #fff;
     color: #000;
 }
 
-/*  미디워쿼리 */
+/* 미디어쿼리 */
 
-@media (max-width:1200px) {
+@media(max-width:1200px) {
     .container {
         width: 100%;
     }
@@ -530,7 +524,7 @@
         display: block;
     }
 
-    /* infor */
+    /*infor */
     .infor .infor-box {
         padding: 0 20%;
         text-align: center;
@@ -538,8 +532,8 @@
 
     .infor .infor-box .in-left {
         width: 100%;
-        border-right: 0;
         padding-bottom: 5%;
+        border-right: 0;
     }
 
     .infor .infor-box .in-left em {
@@ -552,6 +546,7 @@
     }
 
     /* ad */
+
     .ad h3 {
         padding: 0 5% 5% 5%;
     }
@@ -562,6 +557,7 @@
 }
 
 @media(max-width:1024px) {
+
     .sbanner>div {
         width: 50%;
         margin-bottom: 30px;
@@ -575,8 +571,8 @@
 
     .select>div {
         width: 38%;
-        padding: 5%;
         margin: 1%;
+        padding: 5%;
     }
 
     .select>div.simg1 {
@@ -595,7 +591,8 @@
     }
 }
 
-@media (max-width:768px) {
+@media(max-width:768px) {
+
     .banner {
         padding: 40px 20px 50px 20px;
         text-align: center;
@@ -607,7 +604,7 @@
         content: '';
         width: 100%;
         height: 100%;
-        background: rgba(139, 179, 255, 0.3);
+        background-color: rgba(139, 179, 255, 0.3);
         position: absolute;
         left: 0;
         top: 0;
@@ -617,15 +614,14 @@
     .banner h2 {
         font-size: 30px;
         line-height: 45px;
-        color: #21597b;
+        color: #21579b;
     }
 
     .banner p {
-        color: #000;
         font-size: 14px;
         padding: 20px 0;
+        color: #000;
     }
-
 
     .banner .view {
         margin-top: 20px;
@@ -633,7 +629,7 @@
         padding: 7px 32px;
     }
 
-    /*infor */
+    /* infor */
     .infor {
         padding: 40px 0;
     }
@@ -647,6 +643,7 @@
         padding-bottom: 30px;
     }
 
+
     .infor .infor-box {
         padding: 0;
     }
@@ -659,7 +656,7 @@
         font-size: 24px;
     }
 
-    /*ad */
+    /* ad */
     .ad {
         padding: 40px 0;
     }
@@ -676,8 +673,8 @@
     }
 
     .ad .view {
-        margin-top: 30px;
         padding: 7px 32px;
+        margin-top: 30px;
     }
 }
 
@@ -731,9 +728,6 @@
         background: none;
         background-color: #2886ca;
     }
-
-
-
 }
 
 @media(max-width:400px) {
@@ -747,8 +741,8 @@
 
     .select h3 {
         width: 100%;
-        padding-left: 0;
         font-size: 20px;
+        padding-left: 0;
     }
 
     .select h3 br {
@@ -759,5 +753,4 @@
         width: 100%;
         box-sizing: border-box;
     }
-
 }
